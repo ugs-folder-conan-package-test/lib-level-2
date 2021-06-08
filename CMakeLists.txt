@@ -9,4 +9,4 @@ find_package(lib-level-1 REQUIRED)
 
 add_library(lib-2 INTERFACE)
 target_include_directories(lib-2 INTERFACE cpp)
-target_include_directories(lib-2 INTERFACE ${lib-level-1_INCLUDE_DIRS})
+target_link_libraries(lib-2 INTERFACE ${lib-level-1_LIBRARIES})
