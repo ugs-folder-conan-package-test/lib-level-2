@@ -1,0 +1,5 @@
+[requires]
+lib-level-1/0.1
+
+[generators]
+cmake_find_package
